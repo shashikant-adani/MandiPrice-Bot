@@ -1,0 +1,274 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "YesterdayDate&Sequence_1",
+        "AssignRangeOfDate&Sequence_1",
+        "MandiUrl&Sequence_1",
+        "SuperAppUrl&Sequence_1",
+        "Directory&Sequence_1",
+        "LDirectory&Sequence_1",
+        "LogFile&Sequence_1",
+        "LogDirectory&Sequence_1",
+        "Emails&Sequence_1",
+        "FileDirectory&Sequence_1",
+        "FileName&Sequence_1",
+        "exceptionHandledLocally&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Sequence_Retail.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "ExtractDataTable&Sequence_10",
+        "Data&Sequence_5",
+        "W2CELL&Sequence_5",
+        "YesterdayDate&Sequence_5"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "InLogFile",
+        "InLogDirectory",
+        "MandiWebsiteUrl",
+        "RetailDate"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Sequence_Wholesale.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "Data&Sequence_2",
+        "ExtractDataTable&Sequence_2",
+        "YesterdayDate&Sequence_2",
+        "W2Cell&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "InLogFile",
+        "InLogDirectory",
+        "MandiWebsiteUrl",
+        "WholesaleDate"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Sequence_Mandi_CropPrice_API.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "FailedResponsHeader&Sequence_5",
+        "ResponseError&Sequence_5",
+        "YesterdayDate&Sequence_2",
+        "ResponseMessage&Sequence_2",
+        "ProjectDirectory&Sequence_2",
+        "ServerResponse&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "InLogFile",
+        "InLogDirectory",
+        "SuperAppUrl",
+        "InDate"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Sequence_Move_File.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "YesterdayDate&Sequence_1",
+        "Year&Sequence_1",
+        "Month&Sequence_1",
+        "Dates&Sequence_1",
+        "FileName&Sequence_1",
+        "FileInfo&Sequence_1",
+        "RenameFileName&Sequence_1",
+        "FileExistsBoolean&Sequence_1",
+        "FileDirectory&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "OutFileName",
+        "OutFileDirectory",
+        "InLogFile",
+        "InLogDirectory",
+        "Directory",
+        "InDate"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Sequence_RangeOfDate.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "variable1&Sequence_2",
+        "StartDate&Sequence_1",
+        "CurrentDate&Sequence_1",
+        "EndDate&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "InEndDate",
+        "InStartDate",
+        "RangeOfDate",
+        "DateList"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Sequence_UserInput_FromDate_ToDate.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "AssignRangeOfDate&Sequence_1",
+        "StartDate&Sequence_1",
+        "EndDate&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Move_File.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "YesterdayDate&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "GlobalHandler.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "answer&Sequence_1",
+        "retry&Sequence_1",
+        "YesterdayDate&Sequence_1",
+        "MandiUrl&Sequence_1",
+        "SuperAppUrl&Sequence_1",
+        "Directory&Sequence_1",
+        "LDirectory&Sequence_1",
+        "LogFile&Sequence_1",
+        "LogDirectory&Sequence_1",
+        "Emails&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "errorInfo",
+        "result"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Sequence_UserInput_SpecificDate.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "InputDateString&Sequence_1",
+        "InputDate&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Sequence_Config.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "ConfigSetting&Sequence_1",
+        "ConfigData&Sequence_1",
+        "ConfigRows&Sequence_1",
+        "ConfigCoumns&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "Emails",
+        "LogDirectory",
+        "Directory",
+        "SuperAppUrl",
+        "MandiWebsiteUrl"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Sequence_LogFile.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "YesterdayDate&Sequence_1",
+        "Year&Sequence_1",
+        "Month&Sequence_1",
+        "Dates&Sequence_1",
+        "FileName&Sequence_1",
+        "FileInfo&Sequence_1",
+        "RenameFileName&Sequence_1",
+        "FileExistsBoolean&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "LogDirectory",
+        "Directory",
+        "LogFile",
+        "InDate"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Sequence_Date.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "YesterdayDate"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Sequence_Mail.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "InFileName",
+        "InFileDirectory",
+        "InEmails",
+        "InLogFile",
+        "InLogDirectory"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Sequence_SearchLogFile.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "YesterdayDate&Sequence_1",
+        "Year&Sequence_1",
+        "Month&Sequence_1",
+        "Dates&Sequence_1",
+        "FileName&Sequence_1",
+        "FileInfo&Sequence_1",
+        "RenameFileName&Sequence_1",
+        "FileExistsBoolean&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "LogFile",
+        "Directory",
+        "LogDirectory",
+        "InDate"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}
